@@ -1,0 +1,19 @@
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:textColor="#C6FFFFFF"
+    >
+
+    <!-- "Mark Favorite", should appear as action button if possible -->
+    <item
+        android:id="@+id/action_reconnect"
+        android:icon="@drawable/connection"
+        android:title="@string/reconnect"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_settings"
+        android:icon="@drawable/cog"
+        android:title="@string/settings"
+        app:showAsAction="ifRoom" />
+
+</menu>

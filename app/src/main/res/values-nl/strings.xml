@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">HW40 • Garage opener</string>
+    <string name="edit_message">Voer een bericht in</string>
+    <string name="button_send">OK</string>
+    <string name="settings">Instellingen</string>
+    <string name="mqtt_server_settings_header">Server instellingen</string>
+    <string name="mqtt_topics_header">Onderwerpen</string>
+    <string name="mqtt_misc_header">Diversen</string>
+    <string name="mqtt_broker">MQTT broker</string>
+    <string name="mqtt_username">Gebruikersnaam</string>
+    <string name="mqtt_password">Wachtwoord</string>
+    <string name="mqtt_topic_status">Status</string>
+    <string name="mqtt_topic_commands">Commando\'s</string>
+    <string name="dryrun">Simulatie</string>
+    <string name="check_settings">Verbindingsfout: controleer de instellingen</string>
+    <string name="reconnect">Opnieuw verbinden</string>
+    <string name="back">Terug</string>
+</resources>

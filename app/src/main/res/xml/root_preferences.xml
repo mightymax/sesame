@@ -1,0 +1,59 @@
+<androidx.preference.PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.preference.PreferenceCategory app:title="@string/mqtt_server_settings_header" android:textColor="@color/teal_700">
+
+        <androidx.preference.EditTextPreference
+            android:defaultValue="ssl://servername:8883"
+            android:inputType="textUri|textNoSuggestions"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            app:key="broker"
+            app:title="@string/mqtt_broker"
+            app:useSimpleSummaryProvider="true" />
+
+        <EditTextPreference
+            app:key="username"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="@string/mqtt_username"
+            app:useSimpleSummaryProvider="true" />
+
+        <androidx.preference.EditTextPreference
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="@string/mqtt_password"
+            app:key="password"
+            android:inputType="textPassword"
+            app:useSimpleSummaryProvider="true" />
+
+    </androidx.preference.PreferenceCategory>
+
+    <androidx.preference.PreferenceCategory app:title="@string/mqtt_topics_header">
+        <androidx.preference.EditTextPreference
+            app:key="topic_status"
+            android:inputType="textNoSuggestions"
+            android:defaultValue="garage/status"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="@string/mqtt_topic_status"
+            app:useSimpleSummaryProvider="true" />
+        <androidx.preference.EditTextPreference
+            app:key="topic_commands"
+            android:inputType="textNoSuggestions"
+            android:defaultValue="garage/commands"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="@string/mqtt_topic_commands"
+            app:useSimpleSummaryProvider="true" />
+    </androidx.preference.PreferenceCategory>
+
+    <androidx.preference.PreferenceCategory app:title="@string/mqtt_misc_header">
+
+        <SwitchPreferenceCompat
+            app:key="dryrun"
+            app:title="@string/dryrun" />
+
+    </androidx.preference.PreferenceCategory>
+
+</androidx.preference.PreferenceScreen>

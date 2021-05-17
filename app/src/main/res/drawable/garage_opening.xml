@@ -1,0 +1,15 @@
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false">
+    <item android:drawable="@drawable/ic_garage_11" android:duration="200" />
+    <item android:drawable="@drawable/ic_garage_10" android:duration="200" />
+    <item android:drawable="@drawable/ic_garage_09" android:duration="200" />
+    <item android:drawable="@drawable/ic_garage_08" android:duration="200" />
+    <item android:drawable="@drawable/ic_garage_07" android:duration="200" />
+    <item android:drawable="@drawable/ic_garage_06" android:duration="200" />
+    <item android:drawable="@drawable/ic_garage_05" android:duration="200" />
+    <item android:drawable="@drawable/ic_garage_04" android:duration="200" />
+    <item android:drawable="@drawable/ic_garage_03" android:duration="200" />
+    <item android:drawable="@drawable/ic_garage_02" android:duration="200" />
+    <item android:drawable="@drawable/ic_garage_01" android:duration="200" />
+    <item android:drawable="@drawable/ic_garage_00" android:duration="500" />
+</animation-list>
